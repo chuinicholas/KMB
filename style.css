@@ -270,13 +270,13 @@ li:before {
   }
 
   .stopName {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .eta1,
   .eta2,
   .eta3 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .eta1 > p,
