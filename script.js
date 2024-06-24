@@ -70,7 +70,7 @@ directionBox.addEventListener("click", (event) => {
   }
   // Showing the bus loading screen for 2s
   busImg.style.display = "block";
-  setTimeout(hideBus, 2000);
+  setTimeout(hideBus, 1000);
   setTimeout(async () => {
     async function fetchRouteListData() {
       const res = await fetch(
@@ -223,7 +223,7 @@ directionBox.addEventListener("click", (event) => {
     }
 
     fetchRouteListData();
-  }, 2000);
+  }, 1000);
 });
 
 // Functional JS

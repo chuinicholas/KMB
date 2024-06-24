@@ -194,7 +194,7 @@ li:before {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  animation: move 2s linear infinite;
+  animation: move 1s linear infinite;
   position: relative;
 }
 
